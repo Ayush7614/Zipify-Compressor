@@ -1,0 +1,20 @@
+<%- include('components/header') %>
+<div class="flex box">
+  <button class="b-btn active">Make Zip File</button>
+  <button class="b-btn">Compress File</button>
+</div>
+
+<div class="Container flex" id="form">
+  <div class="info" id="FileInfo"></div>
+  <label for="file" id="label"><i class="fas fa-plus"></i> Upload Files </label>
+  <input type="file" class="FileInput" id="file" multiple />
+  <div class="flex box" id="btnBox">
+    <button class="btn" id="submit">Generate</button>
+    <button class="btn" id="cancel">Cancel</button>
+  </div>
+</div>
+<div class="flex">
+  <img src="./logo-black.png" alt="logo-black" class="logo-black" />
+</div>
+<script src="./js/script.js"></script>
+<%- include('components/footer') %>
