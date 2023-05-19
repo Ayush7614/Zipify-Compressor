@@ -20,7 +20,7 @@
 
 <p> To setup this project to your local system follow these steps :- </p>
 <ul>
-<li> Clone code using ` git clone https://github.com/pulkit-30/Zipify.git `</li>
+<li> Clone code using ` git clone https://github.com/Ayush7614/Zipify.git `</li>
 <li> run ` npm install ` to install all node_modules </li>
 <li> run ` node app.js ` to run the server </li>
 <li> Server will run at Port 80 , open your browser and go to http://localhost </li>
